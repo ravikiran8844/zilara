@@ -66,7 +66,7 @@ function Navbar() {
         <div className="hidden lg:block">
           <Link href="/">
             <div className="text-white text-lg font-semibold">
-            <Image className='nav_logo-center' alt='logo' width={225} height={58} src="/zillara_logo.png"/>
+            <Image className='nav_logo-center' alt='logo' width={225} height={60} src="/zillara_logo.png"/>
             </div>
           </Link>
         </div>
@@ -74,7 +74,7 @@ function Navbar() {
           <Link href="/link3">
             <div className="text-gray-300 hover:text-white mr-4">
                 <div className='flex items-center justify-center'>
-                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="28" height="28" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0_1019_178" maskUnits="userSpaceOnUse" x="0" y="0" width="35" height="35">
 <path d="M35 0H0V35H35V0Z" fill="white"/>
 </mask>
@@ -97,7 +97,7 @@ function Navbar() {
           <Link href="/link4">
             <div className="text-gray-300 hover:text-white mr-4">
                 <div  className='flex items-center justify-center'>
-                <svg width="35" height="35" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1019_105)">
 <path d="M16 14.5059C19.0376 14.5059 21.5 12.0434 21.5 9.00586C21.5 5.96829 19.0376 3.50586 16 3.50586C12.9624 3.50586 10.5 5.96829 10.5 9.00586C10.5 12.0434 12.9624 14.5059 16 14.5059Z" stroke="#2D2D2D" stroke-width="1.5"/>
 <path d="M4.18254 27.4917C3.8812 27.4917 5.04387 24.0997 5.1412 23.857C6.8812 19.521 10.3159 19.541 15.9892 19.541C21.6625 19.541 25.5359 19.5224 27.2772 23.857C27.3745 24.0997 28.0972 27.489 27.7945 27.489H4.18254V27.4917Z" stroke="#2D2D2D" stroke-width="1.5"/>
@@ -121,23 +121,28 @@ function Navbar() {
         <div className="lg:hidden">
           <div className="mt-2 pb-3">
             <Link href="/link1">
-              <div className="block text-gray-300 hover:text-white px-4 py-2">
-                Link 1
+              <div className="block navbar-links px-4 py-2">
+              Our Story
               </div>
             </Link>
             <Link href="/link2">
-              <div className="block text-gray-300 hover:text-white px-4 py-2">
-                Link 2
+              <div className="blocknavbar-links px-4 py-2">
+              Zilara Siver
               </div>
             </Link>
             <Link href="/link3">
-              <div className="block text-gray-300 hover:text-white px-4 py-2">
-                Link 3
+              <div className="block navbar-links px-4 py-2">
+              Contact Us
               </div>
             </Link>
             <Link href="/link4">
-              <div className="block text-gray-300 hover:text-white px-4 py-2">
-                Link 4
+              <div className="block navbar-links px-4 py-2">
+              Stores
+              </div>
+            </Link>
+            <Link href="/link4">
+              <div className="block navbar-links px-4 py-2">
+                Account
               </div>
             </Link>
           </div>

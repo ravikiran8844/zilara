@@ -34,3 +34,7 @@
   top: 50%;
   transform: translate(-50%,-50%);
 }
+
+.dark-bg-color{
+  background: #2D2D2D;
+}
