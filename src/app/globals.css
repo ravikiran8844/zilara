@@ -9,9 +9,71 @@
 }
 
 
+@font-face {
+  font-family: Canela Trial;
+   src: url('/fonts/Canela-Trial.woff') format('woff2');
+    font-weight: normal;
+   font-display: swap;
+}
 
+@font-face {
+  font-family: Cotta;
+   src: url('/fonts/cotta-free.woff') format('otf');
+    font-weight: normal;
+   font-display: swap;
+}
+
+@font-face {
+  font-family: 'Optima nova LT Pro';
+  src: url('/fonts/OptimaNovaLTProRegular.woff') format('woff2');
+  font-weight: normal;
+   font-display: swap;
+}
+@font-face {
+  font-family: 'Optima nova LT Pro';
+  src: url('/fonts/Sharp-Sans.woff') format('woff2');
+  font-weight: normal;
+   font-display: swap;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Canela Trial;
+}
+body{
+  font-family: 'Optima nova LT Pro' !important;
+  background: #F6F6F6;
+}
+.slider-main-heading{
+  font-family: Cotta;
+  color: #2D2D2D;
+  font-style: normal;
+font-weight: 400;
+}
+.slider-text{
+  color: #111;
+  font-family: Optima LT Pro;
+}
+
+.logos-section-bg{
+  background: #2D2D2D;
+}
+
+@media(min-width:768px){
+  .logo-section-item{
+    border-right: 1px solid #fff;
+  }
+  .logo-section-item:last-child{
+    border-right: none;
+  }
+}
+
+.banner-section-text{
+  color: #2D2D2D;
+font-family: Optima LT Pro;
+}
 .announcement-bar-bg {
   background: #9F212C;
+  font-family: Sharp Sans;
 }
 .navbar-bg{
   background: #F6F6F6;
@@ -19,7 +81,7 @@
 .navbar-links{
   color: #282828;
   font-family: Optima LT Pro;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 100%;

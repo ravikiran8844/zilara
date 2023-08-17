@@ -19,7 +19,7 @@ const BannerSection = () => {
       Engagement Ring
       </h2>
 
-      <p class="mt-4 max-w-lg sm:text-xl/relaxed">
+      <p class="banner-section-text mt-4 max-w-lg sm:text-lg/relaxed">
       Crafted with exquisite detail, our lab grown diamond engagement rings are a unique expression of your commitment and a timeless reminder of your love story.
       </p>
 
@@ -43,3 +43,9 @@ const BannerSection = () => {
 }
 
 export default BannerSection
+
+
+
+
+
+
